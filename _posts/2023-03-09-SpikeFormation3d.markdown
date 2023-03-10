@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Spike formation theory in 3D flow separation"
-image: /images/worm.png
+image: images/worm.png
 categories: research
 author: "Sreejith Santhosh"
 authors: "<strong>Sreejith Santhosh</strong>, Haodong Qin, Bjoern F. Klose, Gustaaf B. Jacobs, Jérôme Vétel, Mattia Serra"
