@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "A mechanochemical model recapitulates distinct vertebrate gastrulation modes"
-image: /images/chickGastrulation
+image: tn/images/chickGastrulation.jpg
 categories: research
 author: "Sreejith Santhosh"
 authors: "M. Serra , G. S. Najera, M. Chuai, A. Plum, <strong> Sreejith Santhosh </strong>, V. Spandan, C. J. Weijer, L. Mahadevan"
