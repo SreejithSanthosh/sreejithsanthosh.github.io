@@ -90,6 +90,9 @@
               {% if post.link %}
               <a href="{{post.link}}">link</a> /
               {% endif %}
+              {% if post.freelink %}
+              <a href="{{post.freelink}}">Free Access link</a> /
+              {% endif %}
               <p></p>
               {{ post.excerpt }}
             </td>
