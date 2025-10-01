@@ -1,0 +1,123 @@
+baseURL: "https://sreejithsanthosh.github.io" 
+title: Sreejith Santhosh
+theme: PaperMod
+
+enableInlineShortcodes: true
+enableRobotsTXT: true
+pagination:
+  pagerSize: 20
+
+taxonomies:
+    tag: tags
+
+menu:
+    main:
+        - name: Research
+          url: papers/
+          weight: 1 
+        - name: Code
+          url: code/
+          weight: 2
+        - name: Blog
+          url: blog/
+          weight: 3
+
+params:
+    description: "This website hosts Sreejith Santhosh's research papers, course materials, data, code, curriculum vitae, and contact information."
+    author: Sreejith Santhosh
+    # googleAnalyticsID: "G-XXXXX"
+    DateFormat: "January 2006"
+    defaultTheme: light
+    hideFooter: false
+    disableThemeToggle: true
+    ShowShareButtons: false
+    ShowReadingTime: false
+    disableSpecial1stPost: true
+    disableAnchoredHeadings: true
+    ShowPostNavLinks: false
+    ShowBreadCrumbs: false
+    ShowCodeCopyButtons: true
+    ShowAllPagesInArchive: false
+    MainSections: ["books","courses","papers","data"]
+    ShowToc: false
+    disableScrollToTop: true
+    TocOpen: true
+    ShowWordCount: false
+    UseHugoToc: true
+    comments: false
+    math: true
+    profileMode:
+          enabled: true
+          title: Sreejith Santhosh
+          subtitle: "I am a graduate student in the Department of Physics at UC San Diego. 
+                    <br></br>
+                    I am working with [Prof. Mattia Serra](https://mattiaserra.com) on problems in biophysics, dynamical systems, and developmental biology. 
+                    I did my undergrad in Engineering Physics at IIT Madras, where I worked on active matter theory with [Prof. Sumesh Thampi](https://scholar.google.com/citations?user=PGXe1vkAAAAJ&hl=en&oi=ao). 
+                    <br></br>
+                    Beyond research, I enjoy hiking, free diving, surfing, and being outdoors. 
+                    In case you are interested in my work or want to chat, please reach out! "
+          imageUrl: "dp.jpeg"
+          imageWidth: 160
+          imageHeight: 160
+          buttons:
+            # - name: Papers
+            #   url: papers/
+            # - name: Code
+            #   url: code/
+            # - name: Books
+            #   url: books/
+            - name: Courses
+              url: courses/
+            - name: CV
+              url: sreejith_cv.pdf
+            # - name: Tags
+            #   url: tags/
+            # - name: Archive
+            #   url: archive/
+            # - name: Blog
+            #   url: https://en.wikipedia.org/wiki/Moritz-Maria_von_Igelfeld_(character)
+
+    socialIcons:
+
+        - name: Email
+          url: ssanthos@ucsd.edu
+        # - name: Zoom
+        #   url: https://www.zoom.us/my/igelfeld
+        # - name: Location
+        #   url: location/
+        # - name: Office Hours
+        #   url: officehours/
+        - name: Google Scholar
+          url: https://scholar.google.com/citations?user=Ho1YlRIAAAAJ&hl=en&authuser=1
+        - name: GitHub
+          url: https://github.com/SreejithSanthosh
+        # - name: Substack
+        #   url: https://pmichaillat.substack.com
+        # - name: YouTube
+        #   url: https://www.youtube.com/@pmichaillat
+        - name: Twitter
+          url: https://x.com/SreejithS_
+        - name: Bluesky
+          url: https://bsky.app/profile/sreejithsanthosh.bsky.social
+
+    assets:
+        disableScrollBarStyle: true
+    cover:
+        hiddenInList: false
+        hiddenInSingle: true
+    label:
+      text: "Sreejith Santhosh"
+      icon: favicon.ico
+      iconHeight: 18
+
+markup:
+    goldmark:
+        renderer:
+            unsafe: true
+    highlight:
+        guessSyntax: true
+        style: autumn 
+    tableOfContents:
+        endLevel: 2
+        ordered: false
+        startLevel: 2
