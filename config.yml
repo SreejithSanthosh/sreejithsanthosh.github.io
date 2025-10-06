@@ -49,8 +49,8 @@ params:
     profileMode:
           enabled: true
           title: Sreejith Santhosh
-          subtitle: "I am a physics PhD candidate at UC San Diego, in the group of [Prof. Mattia Serra](https://www.mattiaserra.com), where my research focuses on theoretical biophysics, dynamical systems theory, and morphogenesis. 
-                    I did my undergrad in Engineering Physics at IIT Madras, where I worked on active matter theory with [Prof. Sumesh Thampi](https://scholar.google.com/citations?user=PGXe1vkAAAAJ&hl=en&oi=ao). 
+          subtitle: "I am a physics PhD candidate at UC San Diego, in the group of <u>[Prof. Mattia Serra](https://www.mattiaserra.com)</u>, where my research focuses on theoretical biophysics, dynamical systems theory, and morphogenesis. 
+                    I did my undergrad in Engineering Physics at IIT Madras, where I worked on active matter theory with <u>[Prof. Sumesh Thampi](https://scholar.google.com/citations?user=PGXe1vkAAAAJ&hl=en&oi=ao).</u>
                     <br></br>
                     Beyond research, I enjoy hiking, free diving, surfing, and being outdoors. 
                     In case you are interested in my work or want to chat, please reach out! "
