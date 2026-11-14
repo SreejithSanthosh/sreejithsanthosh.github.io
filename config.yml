@@ -49,11 +49,13 @@ params:
     profileMode:
           enabled: true
           title: Sreejith Santhosh
-          subtitle: "I am a physics PhD candidate at UC San Diego, in the group of <u>[Prof. Mattia Serra](https://www.mattiaserra.com)</u>, where my research focuses on theoretical biophysics, dynamical systems theory, and morphogenesis. 
-                    I did my undergrad in Engineering Physics at IIT Madras, where I worked on active matter theory with <u>[Prof. Sumesh Thampi](https://scholar.google.com/citations?user=PGXe1vkAAAAJ&hl=en&oi=ao).</u>
+          subtitle: "I am a physics PhD candidate at UC San Diego, in the group of <u>[Prof. Mattia Serra](https://www.mattiaserra.com)</u>, where my research focuses on theoretical biophysics, dynamical systems theory, and morphogenesis. Please check my papers on <u>[google scholar](https://scholar.google.com/citations?user=Ho1YlRIAAAAJ&hl=en&authuser=1)</u> to get sense of my research work. I did my undergrad in Engineering Physics at IIT Madras, where I worked on active matter theory with <u>[Prof. Sumesh Thampi](https://scholar.google.com/citations?user=PGXe1vkAAAAJ&hl=en&oi=ao).</u>
                     <br></br>
                     Beyond research, I enjoy hiking, free diving, surfing, and being outdoors. 
-                    In case you are interested in my work or want to chat, please reach out! "
+                    In case you are interested in my work or want to chat, please reach out! 
+                    <hr>
+                    I am currently <span style='color: #d93025;'>looking for postdoctoral positions in the mechanics of living matter</span>, particularly in data-driven modeling and control. I have experience modeling biological systems, have worked (and loved working) closely with experimentalists, and have developed dynamical systems frameworks for understanding material transport in complex flows. If you are hiring, please reach out!
+                    "
           imageUrl: "dp.jpeg"
           imageWidth: 160
           imageHeight: 160

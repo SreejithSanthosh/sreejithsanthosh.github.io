@@ -45,3 +45,9 @@
 .button:hover {
     background: var(--lightcolor);
 }
+.profile_inner hr {
+    margin: 16px 0;
+    height: 1px;
+    background: var(--tertiary);
+    border: 0;
+}
