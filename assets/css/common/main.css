@@ -41,6 +41,70 @@
     color: var(--darkcolor);
 }
 
+/* Hover tooltip for social icons */
+.social-icons a {
+    position: relative;
+}
+
+.social-icons a[data-tooltip]::after {
+    content: attr(data-tooltip);
+    position: absolute;
+    bottom: calc(100% - 2px);
+    left: 15px; /* centre of the 30px icon (link has no left padding) */
+    transform: translate(-50%, 4px);
+    padding: 4px 8px;
+    border-radius: 4px;
+    background: var(--primary);
+    color: var(--theme);
+    font-size: 12px;
+    line-height: 1.2;
+    white-space: nowrap;
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity 0.15s ease, transform 0.15s ease;
+    z-index: 10;
+}
+
+.social-icons a[data-tooltip]:hover::after,
+.social-icons a[data-tooltip]:focus-visible::after {
+    opacity: 1;
+    transform: translate(-50%, 0);
+}
+
+/* Hover tooltip for profile buttons (set `tooltip:` on a button in config.yml) */
+.buttons .button[data-tooltip] {
+    position: relative;
+}
+
+.buttons .button[data-tooltip]::after {
+    content: attr(data-tooltip);
+    position: absolute;
+    top: calc(100% + 6px);
+    left: 50%;
+    transform: translate(-50%, -4px);
+    width: max-content;
+    max-width: min(260px, 80vw);
+    padding: 6px 10px;
+    border-radius: 4px;
+    background: var(--primary);
+    color: var(--theme);
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 1.35;
+    text-align: center;
+    white-space: normal;
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity 0.15s ease, transform 0.15s ease;
+    z-index: 10;
+}
+
+.buttons .button[data-tooltip]:hover::after,
+.buttons .button[data-tooltip]:focus-visible::after {
+    opacity: 1;
+    transform: translate(-50%, 0);
+}
+
 code {
     direction: ltr;
 }
